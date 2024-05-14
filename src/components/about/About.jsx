@@ -1,6 +1,7 @@
 import React from 'react'
 import "./about.css"
-import AboutImg from "../../assets/sumanth-profile.jpeg"
+import sumanthbg from "../../assets/sumanth-bgrm.png"
+import sumanthwater from "../../assets/12706.jpg"
 import CV from "../../assets/sumanth_resume.pdf"
 
 export const About = () => {
@@ -10,7 +11,8 @@ export const About = () => {
         <span className="section__subtitle">My Introduction</span>
 
         <div className="about__container container grid">
-            <img src={AboutImg} alt="" className="about__img" />
+            <img src={sumanthbg} alt="" className="about__img" />
+            
             
         </div>
     </section>
