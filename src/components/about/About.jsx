@@ -12,8 +12,6 @@ export const About = () => {
 
         <div className="about__container container grid">
             <img src={sumanthbg} alt="" className="about__img" />
-            <hr />
-            
             
         </div>
     </section>
