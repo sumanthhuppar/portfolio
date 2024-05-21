@@ -1,7 +1,7 @@
-export const Information = () =>{
-    return(
-        <div>
-            <h1>this is Info tag</h1>
-        </div>
-    )
+export const Information = () => {
+return(
+<>
+ <h1>This is Information component</h1>
+</>
+);
 }
